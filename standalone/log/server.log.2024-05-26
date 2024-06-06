@@ -1,0 +1,1602 @@
+19:11:32,975 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+19:11:33,219 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:11:33,290 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+19:11:33,298 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+19:11:33,299 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Argumentos VM: -Xloggc:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+19:11:34,525 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+19:11:34,530 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+19:11:34,533 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+19:11:34,638 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+19:11:34,639 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+19:11:34,655 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+19:11:34,653 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+19:11:34,651 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+19:11:34,650 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+19:11:34,694 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+19:11:34,703 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+19:11:34,787 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+19:11:34,841 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+19:11:34,898 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Iniciando o Serviço de Nomeação
+19:11:34,899 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+19:11:35,262 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+19:11:35,372 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+19:11:35,417 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Escutando no 127.0.0.1:4447
+19:11:35,425 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+19:11:35,429 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+19:11:35,435 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Escutando no 127.0.0.1:9999
+19:11:35,547 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+19:11:35,624 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+19:11:35,624 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+19:11:35,625 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 3064ms - Iniciado 153 de serviços 191 (os serviços 57 são lazy, passivos ou em demanda)
+19:12:18,237 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+19:12:18,237 INFO  [org.apache.catalina.core] (MSC service thread 1-2) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:12:18,237 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+19:12:18,237 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+19:12:18,269 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 50ms
+19:15:02,715 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+19:15:02,903 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:15:02,965 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+19:15:02,981 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+19:15:02,981 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Argumentos VM: -Xloggc:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+19:15:04,215 INFO  [org.xnio] (MSC service thread 1-4) XNIO Version 3.0.13.GA-redhat-1
+19:15:04,215 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+19:15:04,231 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+19:15:04,293 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+19:15:04,309 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+19:15:04,340 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+19:15:04,340 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+19:15:04,356 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+19:15:04,356 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+19:15:04,371 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+19:15:04,418 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+19:15:04,450 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 3.3.4.Final-redhat-1
+19:15:04,543 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+19:15:04,793 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Iniciando o Serviço de Nomeação
+19:15:04,793 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+19:15:04,965 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+19:15:05,059 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+19:15:05,106 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Escutando no 127.0.0.1:4447
+19:15:05,121 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+19:15:05,121 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+19:15:05,137 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Escutando no 127.0.0.1:9999
+19:15:05,215 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+19:15:05,278 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+19:15:05,278 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+19:15:05,278 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 2938ms - Iniciado 153 de serviços 191 (os serviços 57 são lazy, passivos ou em demanda)
+19:16:57,715 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+19:16:57,716 INFO  [org.apache.catalina.core] (MSC service thread 1-1) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:16:57,724 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+19:16:57,726 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+19:16:57,753 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 45ms
+19:25:18,456 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+19:25:18,659 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:25:18,722 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+19:25:18,737 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+19:25:18,737 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Argumentos VM: -Xloggc:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+19:25:20,034 INFO  [org.xnio] (MSC service thread 1-3) XNIO Version 3.0.13.GA-redhat-1
+19:25:20,034 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+19:25:20,050 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+19:25:20,097 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+19:25:20,113 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+19:25:20,113 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+19:25:20,113 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+19:25:20,113 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+19:25:20,113 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+19:25:20,159 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+19:25:20,222 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+19:25:20,253 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 3.3.4.Final-redhat-1
+19:25:20,379 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 27) JBAS014612: Falha na operação ("add") - endereço ([
+    ("subsystem" => "datasources"),
+    ("jdbc-driver" => "postgreSQL")
+]) - falha na descrição: "JBAS010441: Falha ao carregar o módulo para o driver [org.postgreSQL]"
+19:25:20,582 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+19:25:20,754 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Iniciando o Serviço de Nomeação
+19:25:20,754 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+19:25:20,894 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+19:25:21,004 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+19:25:21,004 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+19:25:21,019 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Escutando no 127.0.0.1:9999
+19:25:21,019 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Escutando no 127.0.0.1:4447
+19:25:21,035 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+19:25:21,144 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+19:25:21,144 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014612: Falha na operação ("add") - endereço ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "GpeDS")
+]) - falha na descrição: {"JBAS014771: Os serviços com falta/indisponibilidade de dependências " => [
+    "jboss.driver-demander.java:jboss/jdbc/GpeDs faltam [jboss.jdbc-driver.postgreSQL]",
+    "jboss.data-source.java:jboss/jdbc/GpeDs faltam [jboss.jdbc-driver.postgreSQL]"
+]}
+19:25:21,160 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014612: Falha na operação ("enable") - endereço ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "GpeDS")
+]) - falha na descrição: {"JBAS014879: Um ou mais serviços foram impossibilitados de iniciar devido a uma ou mais dependências não estarem disponíveis." => {
+    "Os serviços que não foi possível iniciar:" => [
+        "jboss.data-source.reference-factory.GpeDS",
+        "jboss.naming.context.java.jboss.jdbc.GpeDs"
+    ],
+    "Os serviços que podem ser a causa:" => ["jboss.jdbc-driver.postgreSQL"]
+}}
+19:25:21,207 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Relatório
+ de status de serviço JBAS014775: Não falta/insatisfaz nenhuma das dependências:
+service jboss.jdbc-driver.postgreSQL (faltam) dependentes: [service jboss.data-source.java:jboss/jdbc/GpeDs, service jboss.driver-demander.java:jboss/jdbc/GpeDs] 
+
+19:25:21,222 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+19:25:21,222 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+19:25:21,222 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado (com erros) em 3157ms - Iniciado 154 de serviços 196 (4 serviços falharam ou faltam dependência, os serviços 57 são lazy, passivos ou em demanda)
+19:28:17,584 INFO  [org.apache.catalina.core] (MSC service thread 1-1) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:28:17,600 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+19:28:17,600 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+19:28:17,600 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+19:28:17,631 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 28ms
+19:28:25,206 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+19:28:25,410 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:28:25,488 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+19:28:25,488 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+19:28:25,503 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Argumentos VM: -Xloggc:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+19:28:26,816 INFO  [org.xnio] (MSC service thread 1-8) XNIO Version 3.0.13.GA-redhat-1
+19:28:26,831 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+19:28:26,831 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+19:28:26,941 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+19:28:26,956 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+19:28:26,972 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 3.3.4.Final-redhat-1
+19:28:26,988 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+19:28:27,035 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+19:28:27,035 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+19:28:27,050 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+19:28:27,050 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+19:28:27,050 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+19:28:27,066 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+19:28:27,128 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+19:28:27,394 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Iniciando o Serviço de Nomeação
+19:28:27,410 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+19:28:27,644 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+19:28:27,738 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+19:28:27,769 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Escutando no 127.0.0.1:4447
+19:28:27,785 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+19:28:27,785 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+19:28:27,785 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Escutando no 127.0.0.1:9999
+19:28:27,878 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Limite da fonte de dados [java:jboss/jdbc/GpeDs]
+19:28:27,878 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+19:28:27,925 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+19:28:27,941 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+19:28:27,941 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 3094ms - Iniciado 159 de serviços 197 (os serviços 57 são lazy, passivos ou em demanda)
+19:31:08,835 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+19:31:08,837 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/jdbc/GpeDs]
+19:31:08,841 INFO  [org.apache.catalina.core] (MSC service thread 1-5) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:31:08,841 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+19:31:08,867 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+19:31:08,881 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 53ms
+19:38:35,291 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+19:38:35,686 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:38:35,789 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+19:38:35,799 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+19:38:35,800 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Argumentos VM: -XX:+UseCompressedOops -Dprogram.name=standalone.bat -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+19:38:37,711 INFO  [org.xnio] (MSC service thread 1-7) XNIO Version 3.0.13.GA-redhat-1
+19:38:37,715 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+19:38:37,720 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+19:38:37,828 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+19:38:37,857 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+19:38:37,859 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+19:38:37,868 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+19:38:37,883 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+19:38:37,885 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+19:38:37,891 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+19:38:37,931 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+19:38:38,163 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+19:38:38,187 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Iniciando o Serviço de Nomeação
+19:38:38,189 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+19:38:38,200 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+19:38:38,216 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 3.3.4.Final-redhat-1
+19:38:38,909 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+19:38:38,919 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+19:38:39,002 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+19:38:39,048 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+19:38:39,049 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Limite da fonte de dados [java:jboss/jdbc/GpeDs]
+19:38:39,054 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Escutando no 127.0.0.1:9999
+19:38:39,054 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Escutando no 127.0.0.1:4447
+19:38:39,377 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+19:38:39,442 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+19:38:39,443 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+19:38:39,443 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 4900ms - Iniciado 159 de serviços 197 (os serviços 57 são lazy, passivos ou em demanda)
+19:38:40,902 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Iniciando a implantação do "epp-3.3.0-SNAPSHOT" (runtime-name: "epp-3.3.0-SNAPSHOT.war")
+19:38:45,661 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 119
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+19:38:46,103 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 317
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+19:38:46,838 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcutil-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 53
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+19:38:50,327 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Leia a persistence.xml para EPAPersistenceUnit
+19:38:50,327 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Leia a persistence.xml para EPABinPersistenceUnit
+19:38:52,138 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-4) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+19:38:52,141 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-4) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+19:38:52,142 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-4) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+19:38:52,142 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-4) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+19:38:52,143 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-4) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+19:38:52,144 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-4) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+19:38:52,149 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: org.jboss.msc.service.StartException in service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment "epp-3.3.0-SNAPSHOT.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:166) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:79)
+	at org.jboss.as.jpa.processor.PersistenceBeginInstallProcessor.deploy(PersistenceBeginInstallProcessor.java:45)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.ejb.HibernatePersistenceImpl from [Module "deployment.epp-3.3.0-SNAPSHOT.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:213) [jboss-modules.jar:1.3.6.Final-redhat-1]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:459) [jboss-modules.jar:1.3.6.Final-redhat-1]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:408) [jboss-modules.jar:1.3.6.Final-redhat-1]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:389) [jboss-modules.jar:1.3.6.Final-redhat-1]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:134) [jboss-modules.jar:1.3.6.Final-redhat-1]
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:73)
+	... 7 more
+
+19:38:52,156 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014612: Falha na operação ("deploy") - endereço ([("deployment" => "epp-3.3.0-SNAPSHOT")]) - falha na descrição: {"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.ClassNotFoundException: org.hibernate.ejb.HibernatePersistenceImpl from [Module \"deployment.epp-3.3.0-SNAPSHOT.war:main\" from Service Module Loader]"}}
+19:38:52,158 ERROR [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: O procedimento da implantação "epp-3.3.0-SNAPSHOT.war" foi revertido com falha de mensagem 
+{"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.ClassNotFoundException: org.hibernate.ejb.HibernatePersistenceImpl from [Module \"deployment.epp-3.3.0-SNAPSHOT.war:main\" from Service Module Loader]"}}
+19:38:52,312 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Implantação encerrada epp-3.3.0-SNAPSHOT (runtime-name: epp-3.3.0-SNAPSHOT.war) em 153ms
+19:38:52,313 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Relatório
+ de status de serviço JBAS014777: Serviços que falham na inicialização:      service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE
+
+19:42:40,065 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+19:42:40,068 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+19:42:40,068 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+19:42:40,069 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/jdbc/GpeDs]
+19:42:40,095 INFO  [org.apache.catalina.core] (MSC service thread 1-4) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:42:40,104 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 52ms
+22:19:50,280 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+22:19:50,748 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+22:19:50,862 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+22:19:50,873 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+22:19:50,874 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Argumentos VM: -XX:+UseCompressedOops -Dprogram.name=standalone.bat -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+22:19:52,790 INFO  [org.xnio] (MSC service thread 1-5) XNIO Version 3.0.13.GA-redhat-1
+22:19:52,794 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+22:19:52,798 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+22:19:52,855 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+22:19:52,860 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+22:19:52,881 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+22:19:52,882 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+22:19:52,900 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+22:19:52,901 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+22:19:52,928 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+22:19:52,964 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-7) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+22:19:53,012 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+22:19:53,040 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Iniciando o Serviço de Nomeação
+22:19:53,042 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+22:19:53,113 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 3.3.4.Final-redhat-1
+22:19:53,147 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+22:19:53,844 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+22:19:53,879 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+22:19:54,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Limite da fonte de dados [java:jboss/jdbc/GpeDs]
+22:19:54,079 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+22:19:54,394 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+22:19:54,407 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Escutando no 127.0.0.1:9999
+22:19:54,408 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Escutando no 127.0.0.1:4447
+22:19:54,696 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+22:19:54,800 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+22:19:54,800 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+22:19:54,801 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 5195ms - Iniciado 159 de serviços 197 (os serviços 57 são lazy, passivos ou em demanda)
+22:19:55,923 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Iniciando a implantação do "epp-3.3.0-SNAPSHOT" (runtime-name: "epp-3.3.0-SNAPSHOT.war")
+22:20:05,557 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:05,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-analysis-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:05,570 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-commons-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:05,575 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-tree-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:05,581 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-util-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:06,540 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 119
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:06,764 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 317
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:07,243 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcutil-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 53
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:09,030 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/openpdf-1.3.30.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 69
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:20:10,647 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe slf4j-api-1.8.0-beta2.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:10,647 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe spotbugs-annotations.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:10,648 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe log4j-slf4j18-impl-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:10,648 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe slf4j-api-1.8.0-alpha2.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:10,649 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe log4j-core-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:10,649 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe log4j-api-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:10,650 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: A entrada do Caminho de Classe config/ no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:20:11,097 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Leia a persistence.xml para EPAPersistenceUnit
+22:20:11,097 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Leia a persistence.xml para EPABinPersistenceUnit
+22:20:14,054 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:20:14,055 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:20:14,055 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:20:14,055 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:20:14,057 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+22:20:14,057 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+22:20:14,075 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: org.jboss.msc.service.StartException in service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment "epp-3.3.0-SNAPSHOT.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:166) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:79)
+	at org.jboss.as.jpa.processor.PersistenceBeginInstallProcessor.deploy(PersistenceBeginInstallProcessor.java:45)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [rt.jar:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [rt.jar:1.8.0_202]
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:75)
+	... 7 more
+Caused by: java.lang.IllegalStateException: Error discovering database
+	at br.com.infox.core.server.ServerInfo.createDatabase(ServerInfo.java:53)
+	at br.com.infox.epp.system.Configuration.createInstance(Configuration.java:45)
+	at org.hibernate.ejb.HibernatePersistenceImpl.<init>(HibernatePersistenceImpl.java:21)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at br.com.infox.core.server.ServerInfo.createDatabase(ServerInfo.java:48)
+	... 14 more
+
+22:20:14,081 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014612: Falha na operação ("deploy") - endereço ([("deployment" => "epp-3.3.0-SNAPSHOT")]) - falha na descrição: {"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.reflect.InvocationTargetException
+    Caused by: java.lang.IllegalStateException: Error discovering database
+    Caused by: java.lang.NullPointerException"}}
+22:20:14,083 ERROR [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: O procedimento da implantação "epp-3.3.0-SNAPSHOT.war" foi revertido com falha de mensagem 
+{"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.reflect.InvocationTargetException
+    Caused by: java.lang.IllegalStateException: Error discovering database
+    Caused by: java.lang.NullPointerException"}}
+22:20:14,439 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Implantação encerrada epp-3.3.0-SNAPSHOT (runtime-name: epp-3.3.0-SNAPSHOT.war) em 355ms
+22:20:14,440 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Relatório
+ de status de serviço JBAS014777: Serviços que falham na inicialização:      service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE
+
+22:32:19,452 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+22:32:19,452 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Fonte de dados sem limite [java:jboss/jdbc/GpeDs]
+22:32:19,475 INFO  [org.apache.catalina.core] (MSC service thread 1-7) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+22:32:19,483 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+22:32:19,483 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+22:32:19,501 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 56ms
+22:33:23,158 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+22:33:23,447 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+22:33:23,530 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+22:33:23,540 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+22:33:23,541 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Argumentos VM: -XX:+UseCompressedOops -Dprogram.name=standalone.bat -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+22:33:25,025 INFO  [org.xnio] (MSC service thread 1-8) XNIO Version 3.0.13.GA-redhat-1
+22:33:25,029 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+22:33:25,030 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+22:33:25,124 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+22:33:25,135 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+22:33:25,171 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+22:33:25,187 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+22:33:25,218 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+22:33:25,277 INFO  [org.jboss.as.security] (MSC service thread 1-7) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+22:33:25,308 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+22:33:25,331 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+22:33:25,392 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Iniciando o Serviço de Nomeação
+22:33:25,393 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+22:33:25,426 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+22:33:25,440 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 3.3.4.Final-redhat-1
+22:33:25,443 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+22:33:25,889 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+22:33:26,033 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Escutando no 127.0.0.1:9999
+22:33:26,033 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Escutando no 127.0.0.1:4447
+22:33:26,056 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+22:33:26,065 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+22:33:26,071 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+22:33:26,152 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+22:33:26,154 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Limite da fonte de dados [java:jboss/jdbc/GpeDs]
+22:33:26,210 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+22:33:26,210 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+22:33:26,211 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 3649ms - Iniciado 159 de serviços 197 (os serviços 57 são lazy, passivos ou em demanda)
+22:33:27,798 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Iniciando a implantação do "epp-3.3.0-SNAPSHOT" (runtime-name: "epp-3.3.0-SNAPSHOT.war")
+22:33:39,418 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:39,429 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-analysis-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:39,432 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-commons-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:39,438 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-tree-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:39,442 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-util-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:40,073 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 119
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:40,350 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 317
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:40,884 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcutil-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 53
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:42,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/openpdf-1.3.30.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 69
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+22:33:44,591 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe slf4j-api-1.8.0-beta2.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:44,592 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe spotbugs-annotations.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:44,592 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe log4j-slf4j18-impl-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:44,592 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe slf4j-api-1.8.0-alpha2.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:44,593 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe log4j-core-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:44,593 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe log4j-api-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:44,593 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: A entrada do Caminho de Classe config/ no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+22:33:45,127 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Leia a persistence.xml para GpeDs
+22:33:45,127 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Leia a persistence.xml para EPABinPersistenceUnit
+22:33:48,168 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:33:48,168 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:33:48,170 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:33:48,170 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-1) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+22:33:48,171 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+22:33:48,171 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+22:33:48,184 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: org.jboss.msc.service.StartException in service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment "epp-3.3.0-SNAPSHOT.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:166) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:79)
+	at org.jboss.as.jpa.processor.PersistenceBeginInstallProcessor.deploy(PersistenceBeginInstallProcessor.java:45)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [rt.jar:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [rt.jar:1.8.0_202]
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:75)
+	... 7 more
+Caused by: java.lang.IllegalStateException: Error discovering database
+	at br.com.infox.core.server.ServerInfo.createDatabase(ServerInfo.java:53)
+	at br.com.infox.epp.system.Configuration.createInstance(Configuration.java:45)
+	at org.hibernate.ejb.HibernatePersistenceImpl.<init>(HibernatePersistenceImpl.java:21)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at br.com.infox.core.server.ServerInfo.createDatabase(ServerInfo.java:48)
+	... 14 more
+
+22:33:48,193 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014612: Falha na operação ("deploy") - endereço ([("deployment" => "epp-3.3.0-SNAPSHOT")]) - falha na descrição: {"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.reflect.InvocationTargetException
+    Caused by: java.lang.IllegalStateException: Error discovering database
+    Caused by: java.lang.NullPointerException"}}
+22:33:48,195 ERROR [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: O procedimento da implantação "epp-3.3.0-SNAPSHOT.war" foi revertido com falha de mensagem 
+{"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.reflect.InvocationTargetException
+    Caused by: java.lang.IllegalStateException: Error discovering database
+    Caused by: java.lang.NullPointerException"}}
+22:33:48,607 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Implantação encerrada epp-3.3.0-SNAPSHOT (runtime-name: epp-3.3.0-SNAPSHOT.war) em 412ms
+22:33:48,607 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Relatório
+ de status de serviço JBAS014777: Serviços que falham na inicialização:      service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE
+
+22:34:33,091 INFO  [org.apache.catalina.core] (MSC service thread 1-3) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+22:34:33,092 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+22:34:33,093 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Fonte de dados sem limite [java:jboss/jdbc/GpeDs]
+22:34:33,105 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+22:34:33,106 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+22:34:33,126 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 43ms
+23:22:08,096 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+23:22:08,304 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+23:22:08,392 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: Iniciando JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+23:22:08,401 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Propriedades de sistema configurado:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\Jonathan\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_202\\bin;C:\Users\Jonathan\Documents\dev\apache-maven-3.3.9\bin;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	jboss.host.name = desktop
+	jboss.modules.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop
+	jboss.qualified.host.name = desktop
+	jboss.server.base.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone
+	jboss.server.config.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log
+	jboss.server.name = desktop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties
+	module.path = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules
+	org.jboss.boot.log.file = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\jboss-modules.jar -mp C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\bin
+	user.home = C:\Users\Jonathan
+	user.language = pt
+	user.name = Jonathan
+	user.script = 
+	user.timezone = America/Cuiaba
+	user.variant = 
+23:22:08,402 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Argumentos VM: -XX:+UseCompressedOops -Dprogram.name=standalone.bat -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\configuration/logging.properties 
+23:22:09,814 INFO  [org.xnio] (MSC service thread 1-8) XNIO Version 3.0.13.GA-redhat-1
+23:22:09,818 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+23:22:09,819 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+23:22:09,875 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Ativação da Extensão WebServices
+23:22:09,880 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Ativação do Subsistema de Segurança
+23:22:09,900 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: A propriedade de identificador do nó é configurado ao valor default. Por favor certifique-se de que isto é único.
+23:22:09,908 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Ativação do Subsistema de Nomeação
+23:22:09,908 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Ativação do subsistema Infinispan.
+23:22:09,925 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013370: Versão =4.1.1.Final-redhat-1 PicketBox Atual
+23:22:09,952 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.31.Final-redhat-1)
+23:22:09,992 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: As seguintes implantações JSF foram ativadas: [main, 1.2]
+23:22:09,997 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Iniciando o Serviço de Nomeação
+23:22:09,998 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+23:22:10,148 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+23:22:10,207 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+23:22:10,291 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 3.3.4.Final-redhat-1
+23:22:10,544 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) JBAS015012: Foi iniciado o FileSystemDeploymentService para o diretório C:\Users\Jonathan\Documents\dev\jboss-eap-6.4\standalone\deployments
+23:22:10,615 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+23:22:10,724 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Escutando no 127.0.0.1:4447
+23:22:10,725 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Escutando no 127.0.0.1:9999
+23:22:10,733 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+23:22:10,737 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+23:22:10,880 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+23:22:10,879 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Limite da fonte de dados [java:jboss/jdbc/GpeDs]
+23:22:10,935 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+23:22:10,935 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: O console de administração ouvindo no http://127.0.0.1:9990
+23:22:10,936 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) iniciado em 3236ms - Iniciado 159 de serviços 197 (os serviços 57 são lazy, passivos ou em demanda)
+23:22:12,434 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Iniciando a implantação do "epp-3.3.0-SNAPSHOT" (runtime-name: "epp-3.3.0-SNAPSHOT.war")
+23:22:14,613 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:14,623 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-analysis-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:14,627 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-commons-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:14,632 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-tree-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 12
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:14,636 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/asm-util-7.0.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:15,236 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 119
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:15,600 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 317
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:16,095 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/bcutil-jdk15on-1.70.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 53
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:17,903 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015852: Não foi possível classificar o índice META-INF/versions/9/module-info.class no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/openpdf-1.3.30.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 69
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.jandex.Indexer.index(Indexer.java:699) [jandex-1.2.2.Final-redhat-1.jar:1.2.2.Final-redhat-1]
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:100) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+
+23:22:19,565 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe slf4j-api-1.8.0-beta2.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:19,566 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe spotbugs-annotations.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:19,566 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe log4j-slf4j18-impl-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:19,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe slf4j-api-1.8.0-alpha2.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:19,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe log4j-core-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:19,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe log4j-api-2.11.1.jar no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:19,567 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015960: A entrada do Caminho de Classe config/ no /C:/Projetos/gpe-master/epp/jsf-gui/target/epp-3.3.0-SNAPSHOT/WEB-INF/lib/spotbugs-3.1.12.jar não aponta a um jar válido para a referência do Class-Path
+23:22:20,042 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011401: Leia a persistence.xml para EPAPersistenceUnit
+23:22:20,043 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011401: Leia a persistence.xml para EPABinPersistenceUnit
+23:22:22,775 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+23:22:22,779 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.dom4j:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+23:22:22,781 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+23:22:22,781 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS015868: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo não suportado ("org.infinispan:main") que pode ser alterado ou removido em versões futuras sem nenhum aviso.
+23:22:22,782 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+23:22:22,783 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS015867: A implantação "deployment.epp-3.3.0-SNAPSHOT.war" está usando um módulo privado ("com.sun.xml.bind:main") que pode ser alteradp ou removido em versões futuras sem nenhum aviso.
+23:22:22,807 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: org.jboss.msc.service.StartException in service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment "epp-3.3.0-SNAPSHOT.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:166) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1980) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1913) [jboss-msc-1.1.5.Final-redhat-1.jar:1.1.5.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_202]
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:79)
+	at org.jboss.as.jpa.processor.PersistenceBeginInstallProcessor.deploy(PersistenceBeginInstallProcessor.java:45)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159) [jboss-as-server-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+	... 5 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [rt.jar:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [rt.jar:1.8.0_202]
+	at org.jboss.as.jpa.processor.PersistenceProviderHandler.deploy(PersistenceProviderHandler.java:75)
+	... 7 more
+Caused by: java.lang.IllegalStateException: Error discovering database
+	at br.com.infox.core.server.ServerInfo.createDatabase(ServerInfo.java:53)
+	at br.com.infox.epp.system.Configuration.createInstance(Configuration.java:45)
+	at org.hibernate.ejb.HibernatePersistenceImpl.<init>(HibernatePersistenceImpl.java:21)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at br.com.infox.core.server.ServerInfo.createDatabase(ServerInfo.java:48)
+	... 14 more
+
+23:22:22,824 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014612: Falha na operação ("deploy") - endereço ([("deployment" => "epp-3.3.0-SNAPSHOT")]) - falha na descrição: {"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.reflect.InvocationTargetException
+    Caused by: java.lang.IllegalStateException: Error discovering database
+    Caused by: java.lang.NullPointerException"}}
+23:22:22,828 ERROR [org.jboss.as.server] (management-handler-thread - 2) JBAS015870: O procedimento da implantação "epp-3.3.0-SNAPSHOT.war" foi revertido com falha de mensagem 
+{"JBAS014671: Falha de serviços" => {"jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"epp-3.3.0-SNAPSHOT.war\".FIRST_MODULE_USE: JBAS018733: Falha ao proceder com a fase FIRST_MODULE_USE do deployment \"epp-3.3.0-SNAPSHOT.war\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011426: Não foi possível implantar o provedor de persistência com pacote do aplicativo 'org.hibernate.ejb.HibernatePersistenceImpl'
+    Caused by: java.lang.reflect.InvocationTargetException
+    Caused by: java.lang.IllegalStateException: Error discovering database
+    Caused by: java.lang.NullPointerException"}}
+23:22:23,397 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Implantação encerrada epp-3.3.0-SNAPSHOT (runtime-name: epp-3.3.0-SNAPSHOT.war) em 565ms
+23:22:23,397 INFO  [org.jboss.as.controller] (management-handler-thread - 2) JBAS014774: Relatório
+ de status de serviço JBAS014777: Serviços que falham na inicialização:      service jboss.deployment.unit."epp-3.3.0-SNAPSHOT.war".FIRST_MODULE_USE
+
+23:33:21,944 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+23:33:21,944 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Fonte de dados sem limite [java:jboss/jdbc/GpeDs]
+23:33:21,946 INFO  [org.apache.catalina.core] (MSC service thread 1-2) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+23:33:21,956 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+23:33:21,956 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+23:33:21,982 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) interrompido em 41ms
